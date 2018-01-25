@@ -4,13 +4,13 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.jboss.bom.brms</groupId>
-    <artifactId>jboss-brms-bpmsuite-bom-parent</artifactId>
+    <groupId>org.jboss.bom.rhba</groupId>
+    <artifactId>rhba-bom-parent</artifactId>
     <version>7.0.0-SNAPSHOT</version>
 
     <packaging>pom</packaging>
 
-    <name>JBoss BRMS/BPM Suite BOM Parent</name>
+    <name>RHBA BOM Parent</name>
     <description>Dependency Management BOM Parent</description>
 
     <url>http://www.jboss.org</url>
@@ -20,9 +20,9 @@
     </issueManagement>
 
     <scm>
-        <connection>scm:git:git@github.com:jboss-integration/bxms-boms.git</connection>
-        <developerConnection>scm:git:git@github.com:jboss-integration/bxms-boms.git</developerConnection>
-        <url>http://github.com/jboss-integration/bxms-boms</url>
+        <connection>scm:git:git@github.com:jboss-integration/rhba-boms.git</connection>
+        <developerConnection>scm:git:git@github.com:jboss-integration/rhba-boms.git</developerConnection>
+        <url>http://github.com/jboss-integration/rhba-boms</url>
     </scm>
 
     <developers>
@@ -45,7 +45,7 @@
     <properties>
         <version.org.kie>7.1.0-SNAPSHOT</version.org.kie>
         <!-- Versions of Java EE7 spec artifacts, keep in sync with what the target EAP uses -->
-        <version.org.jboss.spec.jboss.javaee.7.0>1.0.3.Final-redhat-6</version.org.jboss.spec.jboss.javaee.7.0>
+        <version.org.jboss.spec.jboss.javaee.7.0>1.1.0.Final-redhat-3</version.org.jboss.spec.jboss.javaee.7.0>
 
         <!-- Repository Deployment URLs -->
         <jboss.releases.repo.url>
@@ -57,9 +57,9 @@
     </properties>
 
     <modules>
-        <module>jboss-brms-bpmsuite-bom</module>
-        <module>jboss-brms-bpmsuite-platform-bom</module>
-        <module>jboss-javaee-7.0-with-brms-bpmsuite</module>
+        <module>rhba-bom</module>
+        <module>rhba-platform-bom</module>
+        <module>jboss-javaee-7.0-with-rhba</module>
     </modules>
 
     <repositories>
