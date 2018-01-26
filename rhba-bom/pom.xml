@@ -6,17 +6,17 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.jboss.bom.brms</groupId>
-        <artifactId>jboss-brms-bpmsuite-bom-parent</artifactId>
+        <groupId>org.jboss.bom.rhba</groupId>
+        <artifactId>rhba-bom-parent</artifactId>
         <version>7.0.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>jboss-brms-bpmsuite-bom</artifactId>
+    <artifactId>rhba-bom</artifactId>
 
     <packaging>pom</packaging>
 
-    <name>JBoss BRMS/BPM Suite BOM</name>
-    <description>Dependency Management for Red Hat JBoss BRMS/BPM Suite</description>
+    <name>RHBA BOM</name>
+    <description>Dependency Management for Red Hat Business Automation</description>
 
     <dependencyManagement>
         <dependencies>

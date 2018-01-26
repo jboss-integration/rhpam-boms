@@ -1,7 +1,7 @@
-JBoss Java EE 6 with JBoss BRMS and Jboss BPM Suite
+RHBA BOM
 ===================================
 
-This BOM builds on the Java EE full profile BOM, adding JBoss BRMS and JBoss BPM Suite.
+This BOM contains all supported Maven artifacts for Red Hat Business Automation.
  
 Usage
 -----
@@ -11,9 +11,9 @@ To use the BOM, import into your dependency management:
     <dependencyManagement>
         <dependencies>
             <dependency>
-               <groupId>org.jboss.bom.brms</groupId>
-               <artifactId>jboss-javaee-6.0-with-brms-bpmsuite</artifactId>
-               <version>6.1.0-SNAPSHOT</version>
+               <groupId>org.jboss.bom.rhba</groupId>
+               <artifactId>rhba-bom</artifactId>
+               <version>7.0.0-SNAPSHOT</version>
                <type>pom</scope>
                <scope>import</scope>
             </dependency>
