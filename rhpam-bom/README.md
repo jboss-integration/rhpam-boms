@@ -1,7 +1,7 @@
 RHPAM BOM
 ===================================
 
-This BOM contains all supported Maven artifacts for Red Hat Automation Manager.
+This BOM contains all supported Maven artifacts for Red Hat Process Automation Manager.
  
 Usage
 -----
