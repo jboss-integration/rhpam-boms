@@ -7,16 +7,16 @@
 
     <parent>
         <groupId>org.jboss.bom.rhba</groupId>
-        <artifactId>rhba-bom-parent</artifactId>
+        <artifactId>rhpam-bom-parent</artifactId>
         <version>7.0.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>rhba-bom</artifactId>
+    <artifactId>rhpam-bom</artifactId>
 
     <packaging>pom</packaging>
 
-    <name>RHBA BOM</name>
-    <description>Dependency Management for Red Hat Business Automation</description>
+    <name>RHPAM BOM</name>
+    <description>Dependency Management for Red Hat Process Automation Manager</description>
 
     <dependencyManagement>
         <dependencies>

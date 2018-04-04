@@ -28,8 +28,8 @@ EMAIL_FROM="\"JDF Publish Script\" <benevides@redhat.com>"
 JIRA_PROJECT="12310320"
 #JIRA PLAYGROUND -- JIRA_PROJECT="10073"
 JIRA_TO="pgier"
-JIRA_SUMMARY="Upgrade rhba-bom project in RHBA"
-JIRA_DESCRIPTION="The \${RELEASEVERSION} version of the jboss-rhba-bom project has been released upstream. This needs to be merge with the eap branch and built for the eap Maven repo."
+JIRA_SUMMARY="Upgrade rhpam-bom project in RHPAM"
+JIRA_DESCRIPTION="The \${RELEASEVERSION} version of the jboss-rhpam-bom project has been released upstream. This needs to be merge with the eap branch and built for the eap Maven repo."
 
 
 # SCRIPT
@@ -82,7 +82,7 @@ release()
    $DIR/release-utils.sh -u -o $RELEASEVERSION -n $NEWSNAPSHOTVERSION
    git commit -a -m "Prepare for development of $NEWSNAPSHOTVERSION"
    git push upstream HEAD --tags
-   echo "***** JBoss RHBA BOMs released"
+   echo "***** JBoss RHPAM BOMs released"
    read -p "Do you want to send release notifcations to $EAP_EMAIL_TO[y/N]? " yn
    case $yn in
        [Yy]* ) notify_email;;
