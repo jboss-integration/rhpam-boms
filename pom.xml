@@ -5,12 +5,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.jboss.bom.rhba</groupId>
-    <artifactId>rhba-bom-parent</artifactId>
+    <artifactId>rhpam-bom-parent</artifactId>
     <version>7.0.0-SNAPSHOT</version>
 
     <packaging>pom</packaging>
 
-    <name>RHBA BOM Parent</name>
+    <name>RHPAM BOM Parent</name>
     <description>Dependency Management BOM Parent</description>
 
     <url>http://www.jboss.org</url>
@@ -20,9 +20,9 @@
     </issueManagement>
 
     <scm>
-        <connection>scm:git:git@github.com:jboss-integration/rhba-boms.git</connection>
-        <developerConnection>scm:git:git@github.com:jboss-integration/rhba-boms.git</developerConnection>
-        <url>http://github.com/jboss-integration/rhba-boms</url>
+        <connection>scm:git:git@github.com:jboss-integration/rhpam-boms.git</connection>
+        <developerConnection>scm:git:git@github.com:jboss-integration/rhpam-boms.git</developerConnection>
+        <url>http://github.com/jboss-integration/rhpam-boms</url>
     </scm>
 
     <developers>
@@ -57,9 +57,9 @@
     </properties>
 
     <modules>
-        <module>rhba-bom</module>
-        <module>rhba-platform-bom</module>
-        <module>jboss-javaee-7.0-with-rhba</module>
+        <module>rhpam-bom</module>
+        <module>rhpam-platform-bom</module>
+        <module>jboss-javaee-7.0-with-rhpam</module>
     </modules>
 
     <repositories>
