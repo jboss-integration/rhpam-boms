@@ -13,7 +13,7 @@ To use the BOM, import into your dependency management:
     <dependencyManagement>
         <dependencies>
             <dependency>
-               <groupId>org.jboss.bom.rhba</groupId>
+               <groupId>org.jboss.bom</groupId>
                <artifactId>rhpam-platform-bom</artifactId>
                <version>7.0.0-SNAPSHOT</version>
                <type>pom</scope>
